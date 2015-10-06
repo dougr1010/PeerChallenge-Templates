@@ -1,0 +1,22 @@
+[
+  { "model" : "cat",
+    "quote" : "cat quote",
+    "link" : "/images/cat.jpg"
+  },
+  { "model" : "face",
+    "quote" : "face qoute",
+    "link" : "/images/Naamloos-1.png"
+  },
+  { "model" : "neil",
+    "quote" : "neil quote",
+    "link" : "/images/neil.jpg"
+  },
+  { "model" : "scumbag",
+    "quote" : "scumbag qoute",
+    "link" : "/images/scumbagSteve.jpg"
+  },
+  { "model" : "yao",
+    "quote" : "yao qoute",
+    "link" : "/images/yao.png"
+  }
+]

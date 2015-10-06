@@ -1,0 +1,17 @@
+//
+   Created by dougritzinger on 10/6/15.
+
+extends layout
+
+block content
+   div(ng-controller="MainController")
+      h1 Create Yer Own Memes
+      #memes()
+      for meme in memes
+         img(src=meme.link)
+         p= "{{" + meme.model+ "}}"
+         input(type ="text" placeholder=meme.quote ng-model=meme.model)
+         br
+         br
+
+
